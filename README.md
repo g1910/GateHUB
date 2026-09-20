@@ -1,6 +1,4 @@
-# GateHUB: Gated History Unit with Background Suppression for Online Action Detection
-
-**CVPR 2022**
+# GateHUB: Gated History Unit with Background Suppression for Online Action Detection | CVPR 2022
 
 Junwen Chen<sup>1,2*</sup>,
 Gaurav Mittal<sup>1*</sup>,
@@ -8,7 +6,7 @@ Ye Yu<sup>1</sup>,
 Yu Kong<sup>2</sup>,
 Mei Chen<sup>1</sup>
 
-<sup>1</sup>Microsoft &nbsp;&nbsp; <sup>2</sup>Rochester Institute of Technology &nbsp;&nbsp; <sup>*</sup>equal contribution
+<sup>1</sup>Microsoft &nbsp;&nbsp; <sup>2</sup>Rochester Institute of Technology &nbsp;&nbsp; <sup>*</sup>equal contribution (at the time of acceptance)
 
 [[`Paper`](https://arxiv.org/abs/2206.04668)] [[`arXiv`](https://arxiv.org/abs/2206.04668)] [[`BibTeX`](#citation)]
 
