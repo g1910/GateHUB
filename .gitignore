@@ -1,0 +1,46 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Credentials and cloud configs -- never commit
+*config*.json
+!data/data_info_new.json
+.env
+*.pem
+*.key
+
+# Features, checkpoints and logs
+*.pkl
+*.pickle
+*.npy
+*.pth
+*.h5
+!data/*_anno.npz
+# Leading slash keeps these to the repo root so gatehub/models/ is not swallowed.
+/logs/
+/model/
+/models/
+/outputs/
+/runs/
+
+# OS / editor cruft
+.DS_Store
+._*
+*.swp
+.idea/
+.vscode/
+
+# Internal working notes, not for publication
+readme_internal.md

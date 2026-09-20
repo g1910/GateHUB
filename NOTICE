@@ -1,0 +1,28 @@
+GateHUB
+Copyright (c) 2022 Junwen Chen, Gaurav Mittal, Ye Yu, Yu Kong, Mei Chen
+
+This product includes software developed by third parties, as listed below.
+
+-------------------------------------------------------------------------------
+OadTR -- https://github.com/wangxiang1230/OadTR
+Copyright (c) 2021 wangxiang1230
+Licensed under the MIT License.
+
+Portions of the training entry point, configuration handling, dataset layer and
+transformer building blocks in this repository are derived from OadTR.
+-------------------------------------------------------------------------------
+DETR -- https://github.com/facebookresearch/detr
+Copyright (c) Facebook, Inc. and its affiliates.
+Licensed under the Apache License, Version 2.0.
+
+The structure of the loss criterion and the distributed training / metric
+logging helpers derive from DETR (by way of OadTR).
+-------------------------------------------------------------------------------
+
+Optional dependency, not distributed with this repository:
+
+TimeSformer -- https://github.com/facebookresearch/TimeSformer
+Licensed under CC-BY-NC 4.0 (non-commercial).
+
+TimeSformer is used only as an external RGB feature extraction backbone for the
+Future-augmented History configuration. No TimeSformer code is included here.
